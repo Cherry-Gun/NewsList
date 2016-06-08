@@ -7,6 +7,7 @@ import android.view.Window;
 import android.widget.ListView;
 
 import com.smartmaster.newslist.R;
+import com.smartmaster.newslist.adapter.NewsAdapter;
 import com.smartmaster.newslist.model.News;
 
 import org.json.JSONArray;
@@ -42,6 +43,13 @@ public class NewsActivity extends Activity {
         @Override
         protected List<News> doInBackground(String... params) {
             return getJSONData(params[0]);
+        }
+
+        @Override
+        protected void onPostExecute(List<News> newses) {
+            super.onPostExecute(newses);
+            NewsAdapter adapter = new NewsAdapter(NewsActivity.this, newses);
+            mListView.setAdapter(adapter);
         }
     }
 
