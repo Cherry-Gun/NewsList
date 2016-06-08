@@ -3,12 +3,15 @@ package com.smartmaster.newslist.activity;
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Window;
 import android.widget.ListView;
 
 import com.smartmaster.newslist.R;
 import com.smartmaster.newslist.model.News;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -46,9 +49,24 @@ public class NewsActivity extends Activity {
     private List<News> getJSONData(String url) {
         List<News> newsList = new ArrayList<>();
         try {
+            //这句相当于url.openConnection().getInputStream();
+            //可根据URL直接联网获取网络数据，返回值为InputStream
             String jsonString = readStream(new URL(url).openStream());
-            Log.d("JSON_DATA", jsonString);
+            JSONObject jsonObject;
+            News news;
+            jsonObject = new JSONObject(jsonString);
+            JSONArray jsonArray = jsonObject.getJSONArray("data");
+            for (int i = 0; i < jsonArray.length(); i++) {
+                jsonObject = jsonArray.getJSONObject(i);
+                news = new News();
+                news.setNewsPicUrl(jsonObject.getString("picSmall"));
+                news.setNewsTitle(jsonObject.getString("name"));
+                news.setNewsContent(jsonObject.getString("description"));
+                newsList.add(news);
+            }
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
             e.printStackTrace();
         }
         return newsList;
@@ -56,11 +74,12 @@ public class NewsActivity extends Activity {
 
     //从InputStream解析网页返回的数据,读取网页返回的字符串--字节流转化为字符流
     private String readStream(InputStream in) {
-        String result = null;
+        InputStreamReader reader;
+        String result = "";
         try {
-            InputStreamReader reader = new InputStreamReader(in, "utf-8");
-            BufferedReader br = new BufferedReader(reader);
             String line;
+            reader = new InputStreamReader(in, "utf-8");
+            BufferedReader br = new BufferedReader(reader);
             while ((line = br.readLine()) != null) {
                 result += line;
             }
