@@ -20,17 +20,28 @@ import java.net.URL;
 public class ImageLoaderWithThread {
 
     private ImageView mImageView;
+    private String mUrl;
 
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            mImageView.setImageBitmap((Bitmap) msg.obj);
+            /**
+             * 当handleMessage在接收消息的时候，先进行判断:
+             * 只有当ImageView控件的Tag信息与传递进来的url相同的时候
+             * 我们才去设置Bitmap，否则不设置
+             * 这样避免了缓存图片对真正想加载的图片产生的延迟影响
+             */
+            if (mImageView.getTag().equals(mUrl)) {
+                mImageView.setImageBitmap((Bitmap) msg.obj);
+            }
         }
     };
 
+    //使用多线程的方式显示图片
     public void showImageByThread(ImageView imageView, final String url) {
         mImageView = imageView;
+        mUrl = url;
 
         new Thread() {
             @Override
@@ -44,6 +55,7 @@ public class ImageLoaderWithThread {
         }.start();
     }
 
+    //用于从一个url来获取一个bitmap
     private Bitmap getImageFromUrl(String urlString) {
         Bitmap bitmap;
         try {

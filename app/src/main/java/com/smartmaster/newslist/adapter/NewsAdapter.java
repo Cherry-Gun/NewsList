@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.smartmaster.newslist.R;
 import com.smartmaster.newslist.model.News;
-import com.smartmaster.newslist.util.ImageLoaderWithThread;
+import com.smartmaster.newslist.util.ImageLoaderWithAsyncTask;
 
 import java.util.List;
 
@@ -56,7 +56,10 @@ public class NewsAdapter extends BaseAdapter{
             viewHolder = (ViewHolder) convertView.getTag();
         }
         viewHolder.picture.setImageResource(R.mipmap.ic_launcher); //TODO 先使用系统默认图片
-        new ImageLoaderWithThread().showImageByThread(viewHolder.picture, mList.get(position).getNewsPicUrl());
+        String url = mList.get(position).getNewsPicUrl();
+        viewHolder.picture.setTag(url);
+//        new ImageLoaderWithThread().showImageByThread(viewHolder.picture, url);  //多线程的方法
+        new ImageLoaderWithAsyncTask().showImageByAsyncTask(viewHolder.picture, url);
         viewHolder.title.setText(mList.get(position).getNewsTitle());
         viewHolder.content.setText(mList.get(position).getNewsContent());
         return convertView;
