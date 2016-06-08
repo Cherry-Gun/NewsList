@@ -30,36 +30,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImageLoader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageLoader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/util/ImageLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3078759">
-              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#2118#2119#0" expanded="true" />
+                <element signature="e#2177#2178#0" expanded="true" />
+                <element signature="e#2349#2350#0" expanded="true" />
+                <element signature="e#2387#2388#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsAdapter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewsAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/adapter/NewsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="72" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
+            <state vertical-scroll-proportion="1.1193317">
+              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1532#1533#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/activity/NewsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1582,12 +1592,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_news.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/model/News.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/activity/NewsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/util/ImageloaderWithThread.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/util/ImageLoaderWithThread.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/util/ImageLoaderWithAsyncTask.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/adapter/NewsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/activity/NewsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/util/ImageLoader.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/adapter/NewsAdapter.java" />
       </list>
     </option>
   </component>
@@ -2068,16 +2078,25 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2088,6 +2107,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20171149" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43252596" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2098,7 +2118,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2173,17 +2192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/activity/NewsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          <folding>
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/util/ImageLoaderWithThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37947494">
@@ -2206,32 +2214,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/adapter/NewsAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/activity/NewsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="72" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-          </folding>
+          <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/util/ImageLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3078759">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2177#2178#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smartmaster/newslist/adapter/NewsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1193317">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
           </folding>
         </state>
       </provider>
